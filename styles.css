@@ -1,0 +1,105 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#idk{
+    font-size: 32px;
+    color: #e924eca7;
+}
+
+.hero{
+    min-height: 100vh;
+    
+    background-color:black;
+    background-size: 10px;
+    background-image: url(https://i.pinimg.com/originals/ee/d2/a2/eed2a26fb81e35d92ef5b0a7f12f8524.gif);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    padding : 0 8%
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px  0;
+    font-family: 'Merriweather', serif;
+}
+span{
+    color: #838383bb;
+    font-size: 35px;
+}
+nav label{
+    margin-left:-120px;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px  -30px 10px 200px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+ 
+
+}
+
+.hero h1{
+    font-size: 60px;
+    margin-top: 12%;
+    line-height: 90px;
+    margin-left: -80px;
+    margin-bottom: 50px;
+    font-family: 'Press Start 2P', cursive;
+    
+   
+}
+
+#btn  {
+    background-color: #393939;
+    border: none;
+    outline: none;
+    padding: 15px 35px;
+margin-top:22px;
+    color:#fff;
+    margin-left: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: -80px;
+
+}
+
+.why{
+    position: absolute;
+    width: 28%;
+    right: 1%;
+    bottom: 130px;
+    font-size: 25px;
+    color:white;
+    line-height: 39px;
+   
+}
+
+.why button{
+    position: absolute;
+    top: 60px;
+    right: 60%;
+   
+}
+
+#carouselExample{
+    width: 80px
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/password/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="hero">
+        <h1 class="title">Password Generator</h1>
+        <h3 id="rzlt">Display Here :) </h3>
+
+
+        <form class="form" for='charaamount-number' id="passform">
+            <label for="charaamount-range" class="form-label">Number of Charcters</label>
+            <div class="character-amount">
+                <input type="range" class="form-range" id="charaamount-range" min="5" max="50">
+                <input type="number" min="5" max="50" value="10" id="charaamount-number">
+            </div>
+            <label>Uppercase</label>
+            <input type="checkbox" id="Uppercase">
+            <label>Numbers</label>
+            <input type="checkbox" id="number">
+            <label id="k">specal Charcters</label>
+
+            <input type="checkbox" id="special">
+
+            <button type="sumbit">Generate your password now</button>
+
+
+            <button onclick="myFunction()">Copy text</button>
+            <button onclick="myFuncti()">print your password</button>
+
+
+        </form>
+    </div>
+    <script src="/password/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+
+
+
+body{
+  background-color:rgb(0, 0, 0);
+    margin: 0;
+    color: rgb(253, 253, 253);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://i.pinimg.com/originals/3b/db/c0/3bdbc0d650e4b27e3925f6781abfc3a1.gif);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    
+
+  }
+  
+  .hero {
+  width: 50%;
+  height: 60%;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+  }
+
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .edite {
+    display: flex;
+    align-items: center;
+  }
+  
+  #charaamount-number{
+    width: 2rem; 
+
+  }
+  .character-amount{
+    
+    display: flex;
+    align-items: center;
+    width: 90px;
+    
+  }
+  
+  #rzlt{margin-bottom:50px
+  ;}
+ button{
+  margin-top: 8px;
+  padding: 8px 10px;
+  background:transparent ;
+  background-color: white;
+  font-weight: 700;
+
+  font-size: 18px;
+
+ }
+ #rzlt{
+  background-color: #fff;
+  padding: 10px  100px;
+  
+  color:black
+ }
+ #k{
+  margin-bottom: 30px;
+ }
+ 
+ #i{
+ 
+ }
